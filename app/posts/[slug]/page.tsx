@@ -26,8 +26,8 @@ const PostPage = (props:any) => {
     const post = getPostContent(slug)
     return (
         <div>
-            <h1 className='font-bold text-2xl'>{post.data.title}</h1>
-            <article className='prose lg:prose-xl'>
+            <h1 className='font-bold text-2xl text-white'>{post.data.title}</h1>
+            <article className='prose lg:prose-xl prose-invert'>
                 <Markdown>{post.content}</Markdown>
             </article>
         </div>

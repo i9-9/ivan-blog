@@ -19,7 +19,7 @@ export default function RootLayout({
       <Link href='/'>
         <h1 className='font-bold text-3xl'>Ivan&apos;s blog</h1>
       </Link>
-      <p>Welcome to my blog</p>
+      <p className='text-gray-400'>Welcome to my blog</p>
     </div>
   )
 

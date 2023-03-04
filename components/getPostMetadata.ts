@@ -2,8 +2,6 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import { PostMetadata } from '@/components/PostMetadata';
 
-
-
 const getPostMetadata = (): PostMetadata[] => {
     const folder = "posts/";
     const files = fs.readdirSync(folder);
